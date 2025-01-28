@@ -23,8 +23,8 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 
 # URLs are strings, so you may want to strip them in your main code
-REQUEST1 = os.environ.get("REQUEST1", "")
-REQUEST2 = os.environ.get("REQUEST2", "")
+REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+BPnqGbiEIOhiZDc1")
+REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+HB7SIqdSQio4MDdl")
 
 # Bot token, API ID, and hash
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
