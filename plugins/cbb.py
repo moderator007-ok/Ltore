@@ -17,7 +17,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text=f"<b>Language : Python3</b>\n"
                  f"<b>Library : pyrogram</b>\n"
                  f"<b>Version : v7 </b>\n"
-                 f"<b>Developer : @StupidBoi69</b>",
+                 f"<b>Developer : @HorizonAnimes</b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
