@@ -622,7 +622,7 @@ Enter 5 for Six months</b>""", chat_id=message.from_user.id, timeout=60)
             await message.reply("Premium added! 🤫")
             await client.send_message(
                 chat_id=user_id,
-                text=f"<b>👑 Update for you\n\nYou are added as a premium member for ({timestring}) 😃\n\nFeedback: @StupidBoi69</b>",
+                text=f"<b>👑 Update for you\n\nYou are added as a premium member for ({timestring}) 😃\n\nFeedback: @HoriZonAnimes</b>",
             )
         except Exception as e:
             print(e)
