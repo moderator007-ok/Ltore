@@ -160,10 +160,10 @@ async def get_shortlink(link):
     hour = current_time.hour
     
     if 1 <= hour < 13:  
-        api = "b754779708a523cd75c9c9ef419d8fd8b7f954da"
+        api = "4bd1e8e6587d4444d5c0df2b14947b51bc308eea"
         site = "kingurl.in"
     else:  
-        api = "3a2c084d61d0813b05a00cd9ba564e92e39f92cb"
+        api = "7f0ca29f318b805659299212ab2d99a4f9590b7a"
         site = "runurl.in"
     
     shortzy = Shortzy(api_key=api, base_site=site)
